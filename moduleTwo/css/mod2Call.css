@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+/* or doing it on the h1 which is easier*/
+/* h1 by default bigger */
+h1 {
+    background: #281B2D;
+    color: #fff;
+    text-align: center;
+    font-size: 72px;
+    margin-top: 0;
+    padding: 25px 0;
+}
+
+/* header style */
+/* header {
+    background: #281B2D;
+    color: #fff;
+    font-size: 72px;
+    text-align: center;
+    padding: 20px;
+}
+h1 {
+    font-size: 72px;
+} */
