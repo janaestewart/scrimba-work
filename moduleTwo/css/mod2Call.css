@@ -34,6 +34,7 @@ h1 {
     background: #281B2D;
     border-bottom: #00C54C solid 6px;
     padding: 20px;
+    margin-top: 0;
 }
 
 .challSeven {
@@ -61,8 +62,30 @@ h1 {
 
 .sidebar {
     width: 30%;
+    background-color: #9AE84F;
+    padding: 15px;
 }
 
 .secColumn {
     margin-left: 3%;
 }
+
+/* challenge 10 */
+
+.sidebar ol {
+    line-height: 150%;
+}
+
+a {
+    color: #281B2D;
+}
+
+a:hover {
+    color: #9138B7;
+}
+
+/* normally should give that paraagraph a class but this isnt wrong */
+.sidebar p {
+    font-size: 12px;
+}
+
