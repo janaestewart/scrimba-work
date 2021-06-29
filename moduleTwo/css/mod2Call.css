@@ -2,6 +2,7 @@ body {
     margin: 0;
 }
 
+/* challenge 5 design */
 /* or doing it on the h1 which is easier*/
 /* h1 by default bigger */
 h1 {
@@ -13,6 +14,7 @@ h1 {
     padding: 25px 0;
 }
 
+/* challenge 5 design */
 /* header style */
 /* header {
     background: #281B2D;
@@ -24,3 +26,12 @@ h1 {
 h1 {
     font-size: 72px;
 } */
+
+/* challenge 6*/
+.challSix {
+    font-size: 48px;
+    color: #fcd801;
+    background: #281B2D;
+    border-bottom: #00C54C solid 6px;
+    padding: 20px;
+}
