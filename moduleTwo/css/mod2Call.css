@@ -48,3 +48,21 @@ h1 {
     margin: 0 auto;
     padding: 0 20px; /*so as the screen gets smaller it's still not touching the sides*/
 }
+
+/* challenge #9 */
+.columns {
+    display: flex;
+}
+
+.main-content {
+    width: 65%;
+    margin-right: 5%;
+}
+
+.sidebar {
+    width: 30%;
+}
+
+.secColumn {
+    margin-left: 3%;
+}
