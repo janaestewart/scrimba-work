@@ -39,3 +39,12 @@ h1 {
 .challSeven {
     color: #fff;
 }
+
+/* challenge #8 */
+.container {
+    /* width: 1000px; */
+    /* border: red solid 1px; */ /* just to double check the responsiveness*/
+    max-width: 1000px; /*allows for responsiveness still why holding content to a maximum space*/
+    margin: 0 auto;
+    padding: 0 20px; /*so as the screen gets smaller it's still not touching the sides*/
+}
