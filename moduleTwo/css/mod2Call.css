@@ -64,6 +64,7 @@ h1 {
     width: 30%;
     background-color: #9AE84F;
     padding: 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
 }
 
 .secColumn {
