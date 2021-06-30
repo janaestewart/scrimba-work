@@ -48,11 +48,38 @@
 
 
 // Create a function (you decide the name) that logs out the number 42 to the console
-function print() {
-    console.log(42)
-}
+// function print() {
+//     console.log(42)
+// }
 // Call/invoke the function
-print()
+// print()
+
+
+// let lap1 = 34
+// let lap2 = 33
+// let lap3 = 36
+
+// Create a function that logs out the sum of all the lap times
+
+// function logSums() {
+//     console.log(lap1 + lap2 + lap3)
+// }
+
+// logSums()
+
+
+// let lapsCompleted = 0
+
+// Create a function that increments the lapsCompleted variable with one
+// Run it three times
+
+// function incrementLap() {
+//     lapsCompleted = lapsCompleted + 1
+// }
+
+// incrementLap()
+
+// console.log(lapsCompleted)
 
 
 // // intialize the count as 0
@@ -61,6 +88,24 @@ print()
 // increment the count variable when the button is clicked
 // change the count-el in the HTML to reflect the new count
 
-// function increment() {
-//     console.log
-// }
+let count = 0
+let countEl = document.getElementById('count-el')
+let saveEl = document.getElementById('save-el')
+
+function increment() {
+    count += 1
+    countEl.textContent = count
+
+}
+
+//create a function, save(), which logs out the count when it's called 
+// let saved = document.getElementById('save-btn')
+
+function save() {
+    let counter = count + ' - '
+    saveEl.textContent += counter
+    countEl.textContent = 0
+    count = 0
+}
+
+
