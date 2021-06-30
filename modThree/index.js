@@ -35,13 +35,32 @@
 // console.log(count)
 
 // Create a variable, bonusPoints. Initialize it as 50. Increase it to 100.
-let bonusPoints = 50
-console.log(bonusPoints)
-bonusPoints += 50
-console.log(bonusPoints)
-// Decrease it down to 25, and then finally increase it to 70
-bonusPoints -= 25
-console.log(bonusPoints)
-bonusPoints += 70
-console.log(bonusPoints)
+// let bonusPoints = 50
+// console.log(bonusPoints)
+// bonusPoints += 50
+// console.log(bonusPoints)
+// // Decrease it down to 25, and then finally increase it to 70
+// bonusPoints -= 25
+// console.log(bonusPoints)
+// bonusPoints += 70
+// console.log(bonusPoints)
 // Console.log the value after each step
+
+
+// Create a function (you decide the name) that logs out the number 42 to the console
+function print() {
+    console.log(42)
+}
+// Call/invoke the function
+print()
+
+
+// // intialize the count as 0
+// let count = 0 
+// listen for clicks on the increment button
+// increment the count variable when the button is clicked
+// change the count-el in the HTML to reflect the new count
+
+// function increment() {
+//     console.log
+// }
