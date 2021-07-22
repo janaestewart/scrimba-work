@@ -21,6 +21,8 @@ h1 {
 h2 {
     color: #ef5839;
     font-size: 24px;
+    border-top: 1px #C4C4C4 solid;
+    border-bottom: 1px #C4C4C4 solid;
 }
 
 a {
