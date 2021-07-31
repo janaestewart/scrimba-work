@@ -18,6 +18,7 @@ document.querySelector('.carousel-button-next').addEventListener('click', moveTo
 document.querySelector('.carousel-button-prev').addEventListener('click', moveToPrevSlide)
 
 function moveToNextSlide() {
+    hideAllSlides()
     console.log('moving to the next')
     if(slidePosition === totalSlides-1){
         slidePosition = 0
@@ -33,3 +34,10 @@ function moveToPrevSlide() {
 }
 
 console.log(totalSlides)
+
+function hideAllSlides(){
+    for(let slide of slides){
+        slide.classList.remove('carousel-item-visible')
+        slide.classList.add('carousel-item-hidden')
+    }
+}
