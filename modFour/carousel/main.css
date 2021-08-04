@@ -9,6 +9,7 @@
 
 .carousel .carousel-item-visible {
     display: block;
+    animation: fadeVisiblity 0.5s;
 }
 
 .carousel .carousel-item img {
@@ -48,4 +49,13 @@
 
 .carousel-item-hidden {
     display: none;
+}
+
+@keyframes fadeVisiblity {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }

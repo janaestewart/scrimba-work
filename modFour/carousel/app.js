@@ -17,9 +17,16 @@ document.querySelector('.carousel-button-next').addEventListener('click', moveTo
 
 document.querySelector('.carousel-button-prev').addEventListener('click', moveToPrevSlide)
 
+function hideAllSlides(){
+    for(let slide of slides){
+        slide.classList.remove('carousel-item-visible')
+        slide.classList.add('carousel-item-hidden')
+    }
+}
+
 function moveToNextSlide() {
     hideAllSlides()
-    console.log('moving to the next')
+   
     if(slidePosition === totalSlides-1){
         slidePosition = 0
     } else {
@@ -30,14 +37,15 @@ function moveToNextSlide() {
 }
 
 function moveToPrevSlide() {
-    console.log('moving to the prev')
+    hideAllSlides()
+   
+    if(slidePosition === 0){
+       slidePosition = totalSlides - 1
+    } else {
+        slidePosition --
+    }
+    slides[slidePosition].classList.add('carousel-item-visible')
 }
 
 console.log(totalSlides)
 
-function hideAllSlides(){
-    for(let slide of slides){
-        slide.classList.remove('carousel-item-visible')
-        slide.classList.add('carousel-item-hidden')
-    }
-}
