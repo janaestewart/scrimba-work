@@ -49,3 +49,7 @@ function moveToPrevSlide() {
 
 console.log(totalSlides)
 
+//carousel feature suggestions
+    //automated slide transitions
+    //add text to the slides
+    //show the user which slide they're on!  
