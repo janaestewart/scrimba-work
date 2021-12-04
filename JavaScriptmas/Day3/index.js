@@ -16,3 +16,13 @@ function fix() {
 // - Change the message and theme to a New Year’s one automatically on December 31st.
 
 
+// const greeting = document.getElementById("greeting")
+// const btn = document.getElementById("btn")
+// btn.addEventListener("click", fix)
+
+// function fix() {
+//   greeting.textContent = "☃️ Merry Christmas! 🎁"
+//   greeting.style.fontFamily = "'Mountains of Christmas', cursive"
+  
+// }
+
